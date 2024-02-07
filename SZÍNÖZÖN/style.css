@@ -1,0 +1,32 @@
+body{
+    background-image: url(xp.jpg);
+}
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;  
+
+  }
+
+#szintarto{
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    width: 150px;
+    height: 70px;
+}
+#tarto{
+    background-color:  grey;
+    position: absolute;
+    left: 30%;
+    display: flex;
+}
+
+#kisKorok{
+    grid-template-columns: repeat(2, 1fr);
+}
